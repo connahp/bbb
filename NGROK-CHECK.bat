@@ -13,9 +13,3 @@ tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -
 echo User: Administrator
 echo Pass: 123456
 ping -n 10 127.0.0.1 >nul
-
-
-
-
-
-
